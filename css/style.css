@@ -1,0 +1,62 @@
+/* Definição das variáveis do CSS */
+:root {
+    --primary-color: rgb(62, 32, 9,0.526);
+    --secondary-color: rgb(62, 32, 9,0.526);
+    --tertiary-color: rgba(62, 32, 9, 0.526);
+    --back-color: rgb(76, 131, 134);
+}
+/* Resetar as configurações do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body {
+      
+      background: var(--back-color);
+}
+
+main {
+    display: flex;
+    width:  80%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.box {
+    align-items: flex-start;
+    justify-content: space-between;
+    display: inline-block;
+    width: 500px;
+    height: 500px;
+    border: 1px solid;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    text-align: center;
+
+}
+
+#red {
+    background-color: var(--primary-color);
+}
+
+#green {
+    background-color: var(--secondary-color);
+}
+
+#blue {
+    background-color: var(--tertiary-color);
+}
+
+header {
+    
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+figure img {
+    height: 400px; 
+    width: 500px;
+}
